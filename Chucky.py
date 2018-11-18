@@ -12,37 +12,37 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='TOKEN_KAMU_DISINI_BEIB')
+cl.login(token='Ez6r2M3Agd9VEPmqtAA5.n8BwJ07e+B9d5oCoUBkozq.ntcEoysJNXX6JpsUFLBicSwQsZ8WVvigaG5mxZK03a0=')
 cl.loginResult()
 print "Cl-Login Success\n"
 
-ki = LINETCR.LINE()
+#ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='TOKEN_KAMU_DISINI_BEIB')
-ki.loginResult()
+#ki.login(token='TOKEN_KAMU_DISINI_BEIB')
+#ki.loginResult()
 print "Ki-Login Success\n"
 
-kk = LINETCR.LINE()
+#kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token='TOKEN_KAMU_DISINI_BEIB')
-kk.loginResult()
+#kk.login(token='TOKEN_KAMU_DISINI_BEIB')
+#kk.loginResult()
 print "Kk-Login Success\n"
 
-kc = LINETCR.LINE()
+#kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token='TOKEN_KAMU_DISINI_BEIB')
-kc.loginResult()
+#kc.login(token='TOKEN_KAMU_DISINI_BEIB')
+#kc.loginResult()
 print "Kc-Login Success\n"
 
-kr = LINETCR.LINE()
+#kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token='TOKEN_KAMU_DISINI_BEIB')
-kr.loginResult()
+#kr.login(token='TOKEN_KAMU_DISINI_BEIB')
+#kr.loginResult()
 print "Kr-Login Success\n"
 
 km = LINETCR.LINE()
 #km.login(qr=True)
-km.login(token='TOKEN_KAMU_DISINI_BEIB')
+km.login(token='Ez10yUnIaL5Z2RZoCKCa.TEPaIerIlW+KmiqNDMC/YG.etPIiFXacsgZA4Kk2hFZI7XrwCFzvj0y9RX+VDiwkj8=')
 km.loginResult()
 print "Km-Login Success\n\n=====[Sukses All Login]====="
 
@@ -305,16 +305,16 @@ protectMessage ="""
 """
 
 
-KAC=[cl,ki,kk,kc,kr]
+KAC=[cl]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = kr.getProfile().mid
+#Amid = ki.getProfile().mid
+#Bmid = kk.getProfile().mid
+#Cmid = kc.getProfile().mid
+#Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-Creator=["u14f64e139a3817afaabe27d237afb36b"]
-admin=["u14f64e139a3817afaabe27d237afb36b","u23ad5ddec0dd0523f9caffad673d693c","u8b2bb5214c1afc77d06901a535c23e30","u57a54b914085fea6f04c19f6fe589057","u94fb89525397a12a24df3642a7335fe7","u3a43893bf65289be03f9fd3a85dab2a7","u787d28e13bd4f94cdca5457cd90efaf4","u86304883a6fa105778bfdf13f467eaf0"]
+Bots=[mid,Emid]
+Creator=["u37c6d68f4ec4fdbf43e4e70eb9b28e65"]
+admin=["u37c6d68f4ec4fdbf43e4e70eb9b28e65","ub5ea408844622f0fe430842776673eca"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -322,35 +322,35 @@ backup1.displayName = contact.displayName
 backup1.statusMessage = contact.statusMessage                        
 backup1.pictureStatus = contact.pictureStatus
 
-contact = ki.getProfile()
-backup2 = ki.getProfile()
-backup2.displayName = contact.displayName
-backup2.statusMessage = contact.statusMessage                        
-backup2.pictureStatus = contact.pictureStatus
+#contact = ki.getProfile()
+#backup2 = ki.getProfile()
+#backup2.displayName = contact.displayName
+#backup2.statusMessage = contact.statusMessage                        
+#backup2.pictureStatus = contact.pictureStatus
 
-contact = kk.getProfile()
-backup3 = kk.getProfile()
-backup3.displayName = contact.displayName
-backup3.statusMessage = contact.statusMessage                        
-backup3.pictureStatus = contact.pictureStatus
+#contact = kk.getProfile()
+#backup3 = kk.getProfile()
+#backup3.displayName = contact.displayName
+#backup3.statusMessage = contact.statusMessage                        
+#backup3.pictureStatus = contact.pictureStatus
 
-contact = kc.getProfile()
-backup4 = kc.getProfile()
-backup4.displayName = contact.displayName
-backup4.statusMessage = contact.statusMessage                        
-backup4.pictureStatus = contact.pictureStatus
+#contact = kc.getProfile()
+#backup4 = kc.getProfile()
+#backup4.displayName = contact.displayName
+#backup4.statusMessage = contact.statusMessage                        
+#backup4.pictureStatus = contact.pictureStatus
 
-contact = kr.getProfile()
-backup5 = kr.getProfile()
-backup5.displayName = contact.displayName
-backup5.statusMessage = contact.statusMessage                        
-backup5.pictureStatus = contact.pictureStatus
+#contact = kr.getProfile()
+#backup5 = kr.getProfile()
+#backup5.displayName = contact.displayName
+#backup5.statusMessage = contact.statusMessage                        
+#backup5.pictureStatus = contact.pictureStatus
 
 responsename = cl.getProfile().displayName
-responsename2 = ki.getProfile().displayName
-responsename3 = kk.getProfile().displayName
-responsename4 = kc.getProfile().displayName
-responsename5 = kr.getProfile().displayName
+#responsename2 = ki.getProfile().displayName
+#responsename3 = kk.getProfile().displayName
+#responsename4 = kc.getProfile().displayName
+#responsename5 = kr.getProfile().displayName
 
 
 wait = {
